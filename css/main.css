@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 320px){/* MOBILE */
+
+  body {
+    border: 2px solid black;
+    background: white;
+  }
+
+
+  .searchDiv {
+
+  }
+
+  .search {
+    border:;
+    display: block;
+    margin: 0 auto;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 0px 9px 0px 9px;
+  }
+
+
+  .main-gallery-area {
+
+  }
+  .image {
+
+  }
+
+  img {
+    display: block;
+    margin: auto;
+    width: 378px;
+    height: 290px;
+    margin-bottom: 80px;
+  }
+
+  h2 {
+    border:;
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 35px;
+  }
+
+  p {
+    border:;
+    display: none;
+    margin:  0 auto;
+    width: 375px;
+    margin-top: 12px;
+    margin-bottom: 90px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .image{
+
+  }
+
+}
+
+
+@media screen and (min-width: 600px) {/* TABLET */
+
+  body {
+    border: 2px solid red;
+    background: white;
+  }
+
+  .searchDiv {
+
+  }
+  .search {
+
+  }
+
+
+  .main-gallery-area {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .image {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+  }
+
+  img {
+    display: block;
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+  }
+
+  h2 {
+    display: none;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  p {
+    border:;
+    display: none;
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 70px;
+    width: 63.5%;
+    font-size: 20px;
+  }
+
+}
+
+
+@media screen and (min-width: 1024px){/* FULL SCREEN */
+
+  body {
+    border: 2px solid green;
+    background-color: white;
+  }
+
+
+  .searchDiv {
+
+  }
+  .search {
+
+  }
+
+  .main-gallery-area {
+    border: 2px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .image {
+    border: ;
+    height: ;
+    width: ;
+    margin: ;
+  }
+
+  img {
+    border: ;
+    display: block;
+    margin: 20px;
+    width: 290px;
+    height: 290px;
+  }
+
+  .image h2 {
+    display: none;
+  }
+  .image p {
+    display:;
+    text-align: center;
+  }
+
+}
