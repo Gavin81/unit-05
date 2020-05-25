@@ -1,3 +1,4 @@
+
 /*
  * Lightcase - jQuery Plugin
  * The smart and flexible Lightbox Plugin.
