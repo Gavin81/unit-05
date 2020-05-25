@@ -1,14 +1,12 @@
 
 $('a[data-rel^=lightcase]').lightcase({
-    swipe: true
+    swipe:
 });
 
 $('a').onclick(function(){
-  
+
 
 });
-
-lightcase.resize({width: 200, height: 200});
 
 
 $('.image').scroll(function(){
