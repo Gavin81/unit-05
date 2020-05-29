@@ -82,7 +82,7 @@
 				caption: null,
 				showTitle: true,
 				showCaption: true,
-				showSequenceInfo: true,
+				showSequenceInfo: false,
 				inline: {
 					width: 'auto',
 					height: 'auto'
