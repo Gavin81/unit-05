@@ -390,7 +390,8 @@ html[data-lc-type=image] #lightcase-content .lightcase-contentInner {
 /* line 33, ../scss/components/modules/_info.scss */
 #lightcase-info #lightcase-caption {
   clear: both;
-  font-size: 13px;
+  font-size: 13px;/*13px*/
+  text-align: ;
   color: #aaa;
 }
 /* line 39, ../scss/components/modules/_info.scss */
@@ -549,9 +550,38 @@ a[class*='lightcase-icon-'].lightcase-icon-pause, a[class*='lightcase-icon-'].li
   left: 0;
   background: #333;
 }
-@media screen and (max-width: 640px) {
+@media screen and (min-width: 640px) {
   /* line 1, ../scss/components/modules/_overlay.scss */
   #lightcase-overlay {
     opacity: 1 !important;
   }
+}
+
+@media screen and (min-width: 320px) {
+
+  #lightcase-info #lightcase-caption {
+    border: 2px solid black;
+    font-size: 23px;/*13px*/
+    text-align: center;
+  }
+}
+@media screen and (min-width: 600px) {
+
+  #lightcase-info #lightcase-caption {
+    border: 2px solid red;
+    width: 250px;
+    font-size: 23px;
+    text-align: center;
+  }
+  data-lc-href {
+    border: 2px solid red;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #lightcase-caption {
+    border: 2px solid green;
+    font-size: 23px;
+    text-align: center;
+  }
+
 }

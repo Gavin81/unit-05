@@ -3,7 +3,7 @@
 @media screen and (min-width: 320px){/* MOBILE */
 
   body {
-    border: 2px solid black;
+    border: ;
     background: white;
   }
 
@@ -27,6 +27,11 @@
 
   }
   .image {
+
+  }
+
+
+  data-lc-caption {
 
   }
 
@@ -68,7 +73,7 @@
 @media screen and (min-width: 600px) {/* TABLET */
 
   body {
-    border: 2px solid red;
+    border: ;
     background: white;
   }
 
