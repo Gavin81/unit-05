@@ -557,29 +557,68 @@ a[class*='lightcase-icon-'].lightcase-icon-pause, a[class*='lightcase-icon-'].li
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) {/* MOBILE PIXEL RESOLUTION */
 
-  #lightcase-info #lightcase-caption {
-    border: 2px solid black;
+  body {
+    border: 2px solid green;
+  }
+
+   #lightcase-info #lightcase-caption {
+    border:;
     font-size: 23px;/*13px*/
     text-align: center;
   }
+  data-lc-href {
+    border: 2px solid green;
+  }
 }
-@media screen and (min-width: 600px) {
+
+@media screen and (min-width: 600px) {/* IPAD/TABLET RES/view */
+
+  body {
+    border: 2px solid black;
+  }
+
+  #data-lc-options {
+    border: 2px solid black;
+    width: ;
+    height: ;
+  }
+
+  .image img {
+    border: 2px solid black;
+    transition: ;
+    width:;
+    height:;
+  }
+
+  .image thumbnails {
+    border: 2px solid red;
+    width: 500px;
+    height: 500px;
+  }
+
 
   #lightcase-info #lightcase-caption {
-    border: 2px solid red;
-    width: 250px;
+    border:;
+    display: ;
+    margin:;
+    width: 330px;
+    height: 150px;
     font-size: 23px;
     text-align: center;
   }
-  data-lc-href {
-    border: 2px solid red;
-  }
+
 }
+
 @media screen and (min-width: 1024px) {
-  #lightcase-caption {
-    border: 2px solid green;
+
+  body {
+    border: 2px solid blue;
+  }
+
+  #lightcase-info #lightcase-caption {
+    border:;
     font-size: 23px;
     text-align: center;
   }
