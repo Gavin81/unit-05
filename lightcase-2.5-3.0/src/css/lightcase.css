@@ -560,7 +560,7 @@ a[class*='lightcase-icon-'].lightcase-icon-pause, a[class*='lightcase-icon-'].li
 @media screen and (min-width: 320px) {/* MOBILE PIXEL RESOLUTION */
 
   body {
-    border: 2px solid green;
+    border: ;
   }
 
    #lightcase-info #lightcase-caption {
@@ -575,8 +575,9 @@ a[class*='lightcase-icon-'].lightcase-icon-pause, a[class*='lightcase-icon-'].li
 @media screen and (min-width: 600px) {/* IPAD/TABLET RES/view */
 
   body {
-    border: 2px solid black;
+    border: ;
   }
+
 
   #data-lc-options {
     border: ;
@@ -611,7 +612,7 @@ a[class*='lightcase-icon-'].lightcase-icon-pause, a[class*='lightcase-icon-'].li
 @media screen and (min-width: 1024px) {
 
   body {
-    border: 2px solid blue;
+    border:;
   }
 
   #lightcase-info #lightcase-caption {
