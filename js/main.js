@@ -5,3 +5,8 @@ $('a[data-rel=lightcase:myCollection:slideshow]').lightcase({
   showSequenceInfo: false,
   showTitle: false
 });
+
+
+$(document).ready(function(){
+  $('#search').hideseek();
+});

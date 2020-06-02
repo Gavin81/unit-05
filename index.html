@@ -12,9 +12,10 @@
 </header>
 
 
-<input id="search" name="search" type="text" data-list=".list" placeholder="Search...">
-<ul class="list">
-</ul>
+<input id="search" name="search" data-toggle="hideseek" type="text" data-list=".list" placeholder="Search...">
+<div class="list">
+  <span><a href="thumbnails/01.jpg" data-lc-caption="I love hay bales. Took this snap on a drive through the countryside past some straw fields"></span>
+</div>
 
 <div class="main-gallery-area">
   <div class="image">
@@ -118,8 +119,8 @@
 
 <script type="text/javascript" src="lightcase-2.5-3.0/src/js/lightcase.js"></script>
 
-<script type="text/javascript" src="HideSeek-master/demo/vendor/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="HideSeek-master/demo/vendor/jquery.hideseek.min.js"></script>
+<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="jquery.hideseek.min.js"></script>
 
 <script type="text/javascript" src="js/main.js"></script>
 
@@ -128,7 +129,13 @@
   jQuery(document).ready(function($){
       $('a[data-rel^=lightcase]').lightcase();
   });
-
 </script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('#search').hideseek();
+  });
+</script>
+
 </body>
 </html>
