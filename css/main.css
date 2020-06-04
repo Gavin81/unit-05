@@ -140,14 +140,6 @@
     background-color: white;
   }
 
-/*
-  .searchDiv {
-
-  }
-  .search {
-
-  }
-*/
 
   .main-gallery-area {
     border:;
@@ -157,8 +149,11 @@
 
 
   img {
-    width: 900px;
-    height: 600px;
+    width: 300px;
+    height: 200px;
+  }
+  img:hover {
+    box-shadow: 20px 20px 10px grey;
   }
   #lightcase-info #lightcase-caption {
     border:;
