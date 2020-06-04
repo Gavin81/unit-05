@@ -122,6 +122,8 @@
 <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="HideSeek-master/jquery.hideseek.js"></script>
 
+<script type="text/javascript" src="lightcase-2.5-3.0/jQuery/jquery.events.touch.min.js"></script>
+
 <script type="text/javascript" src="js/main.js"></script>
 
 
@@ -137,6 +139,12 @@
       attribute: 'data-lc-caption'
     });
   });
+</script>
+
+<script>
+$('a[data-rel^=lightcase]').lightcase({
+	swipe: true
+});
 </script>
 
 </body>

@@ -3,10 +3,7 @@
 
 
 .image img {
-  /*
-  width: 250px;
-  height: 250px;
-  */
+
 }
 
 #search {
@@ -23,16 +20,19 @@
   list-style: none;
 }
 
+
 @media screen and (min-width: 320px){/* MOBILE */
 
   body {
-    border: ;
+    border: 1px solid blue;
     background: white;
   }
+  /*
   .lightcase-contentInner img {
       height: 100%!important;
       width: 100%!important;
   }
+  */
 
   .search {
     display: block;
@@ -130,7 +130,7 @@
 @media screen and (min-width: 1024px){/* FULL SCREEN */
 
   body {
-    border:;
+    border: 1px solid black;
     background-color: white;
   }
 

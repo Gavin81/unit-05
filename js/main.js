@@ -10,3 +10,8 @@ $('a[data-rel=lightcase:myCollection:slideshow]').lightcase({
 $(document).ready(function(){
   $('#search').hideseek();
 });
+
+
+$('a[data-rel^=lightcase]').lightcase({
+	swipe: true
+});
