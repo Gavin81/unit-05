@@ -44,8 +44,8 @@
   img {
     display: block;
     margin: auto;
-    width: 380px;
-    height: 300px;
+    /*width: 380px;
+    height: 300px;*/
     margin-bottom: 80px;
   }
 
@@ -80,15 +80,6 @@
     border: 1px solid red;
     background: white;
   }
-
-/*
-  .searchDiv {
-
-  }
-  .search {
-
-  }
-*/
 
   .main-gallery-area {
     display: flex;
@@ -139,6 +130,10 @@
     border:;
     background-color: white;
   }
+  .lightcase-contentInner img {
+    height: 100%!important;
+    width: 100%!important;
+  }
 
 
   .main-gallery-area {
@@ -149,8 +144,10 @@
 
 
   img {
+    /*
     width: 300px;
     height: 200px;
+    */
   }
   img:hover {
     box-shadow: 20px 20px 10px grey;

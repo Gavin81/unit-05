@@ -564,6 +564,10 @@ a[class*='lightcase-icon-'].lightcase-icon-pause, a[class*='lightcase-icon-'].li
   body {
     border: ;
   }
+  .lightcase-contentInner img {
+    height: 100%!important;
+    width: 100%!important;
+  }
 
    #lightcase-info #lightcase-caption {
     border:;
@@ -582,9 +586,7 @@ a[class*='lightcase-icon-'].lightcase-icon-pause, a[class*='lightcase-icon-'].li
 
 
   #data-lc-options {
-    border: ;
-    width: ;
-    height: ;
+    
   }
 
   .image img {
