@@ -592,10 +592,12 @@ a[class*='lightcase-icon-'].lightcase-icon-pause, a[class*='lightcase-icon-'].li
     height:;
   }
 
-  .image thumbnails {
+  .image {
     border:;
+    /*
     width: 500px;
     height: 500px;
+    */
   }
 
 

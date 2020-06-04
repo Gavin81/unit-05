@@ -3,8 +3,10 @@
 
 
 .image img {
+  /*
   width: 250px;
   height: 250px;
+  */
 }
 
 #search {
@@ -75,7 +77,7 @@
 @media screen and (min-width: 600px) {/* TABLET */
 
   body {
-    border: ;
+    border: 1px solid red;
     background: white;
   }
 
@@ -95,13 +97,15 @@
   .image {
     display: block;
     margin: 0 auto;
-    width: auto;
-    height: auto;
+    width: ;
+    height: ;
   }
 
   img {
+    /*
     width: 600px;
     height: 450px;
+    */
   }
   #lightcase-info #lightcase-caption {
     border:;
