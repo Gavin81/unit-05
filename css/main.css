@@ -29,7 +29,10 @@
     border: ;
     background: white;
   }
-
+  .lightcase-contentInner img {
+      height: 100%!important;
+      width: 100%!important;
+  }
 
   .search {
     display: block;
@@ -130,11 +133,6 @@
     border:;
     background-color: white;
   }
-  .lightcase-contentInner img {
-    height: 100%!important;
-    width: 100%!important;
-  }
-
 
   .main-gallery-area {
     border:;
