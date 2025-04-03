@@ -176,6 +176,7 @@
 }
 /* line 1, ../scss/components/modules/_case.scss */
 #lightcase-case {
+  border: 1px solid blue;
   display: none;
   position: fixed;
   z-index: 2002;
