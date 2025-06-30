@@ -18,7 +18,7 @@
 @media screen and (min-width: 320px){/* MOBILE */
 
   body {
-    
+    margin: 0;
   }
   /*
   .lightcase-contentInner img {
@@ -78,11 +78,6 @@
 
 @media screen and (min-width: 600px) {/* TABLET */
 
-  body {
-    /* border: 1px solid red; */
-    margin: 0;
-  }
-
   .main-gallery-area {
     display: flex;
     flex-wrap: wrap;
@@ -93,10 +88,7 @@
   }
 
   img {
-    /*
-    width: 600px;
-    height: 450px;
-    */
+  
   }
   #lightcase-info #lightcase-caption {
     width: 590px;
